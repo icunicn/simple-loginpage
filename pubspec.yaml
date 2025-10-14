@@ -1,0 +1,32 @@
+name: uts_mobile1
+description: A Flutter app with Login & Register using SQLite, password hashing, and secure storage.
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Database & file handling
+  http: ^1.2.0
+  sqflite: ^2.2.0
+  path_provider: ^2.0.15
+  path: ^1.8.2
+  # Keamanan
+  flutter_secure_storage: ^8.0.0
+  crypto: ^3.0.2
+  shared_preferences: ^2.2.3
+  # UI icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
