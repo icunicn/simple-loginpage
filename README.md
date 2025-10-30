@@ -30,10 +30,10 @@ samples, guidance on mobile development, and a full API reference.
 The code is documented with comments explaining the functionality of different parts of the application. Please refer to the code files for detailed documentation.
 
 - Login Screen
-<img src="assets/img/login.jpg" width="200"/> 
+<img src="lib/assets/img/login.jpg" width="200"/> 
 
 - Register Screen
-<img src="assets/img/register.jpg" width="200"/>
+<img src="lib/assets/img/register.jpg" width="200"/>
 
 ## Folder Structure
 ```
